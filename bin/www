@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require("../app");
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+app.listen(4000, onListening());
+
+function onListening() {
+  console.log("Listening on port 4000");
+}
